@@ -4,7 +4,9 @@ public class Category {
 	private String categoryId;
 	private String category;
 
-	public Category(String categoryId, String Category) {
+	public Category(String categoryId, String category) {
+		this.categoryId = categoryId;
+		this.category = category;
 	}
 
 	public String getCategoryId() {
@@ -22,5 +24,11 @@ public class Category {
 	public void setCategory(String category) {
 		this.category = category;
 	}
+	
+	public String toString() {
+		return categoryId + " " + category;
+	}
+	
+	
 
 }
