@@ -10,7 +10,7 @@ public class CategoryTest {
 	
 	private Category cat1;
 	private Category cat2;
-	
+	 
 	@Before
 	public void setUp() throws Exception {
 		cat1 = new Category("001","Sports");

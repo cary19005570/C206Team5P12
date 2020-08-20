@@ -9,7 +9,7 @@ public class CategoryDB {
 		
 	}
 	
-	public static String viewAllCategory() {
+	public static String viewAllCategory() { 
 		String output = " ";
 		for (int i = 0; i<categoryList.size(); i++) {
 			output += categoryList.get(i).toString();
@@ -19,6 +19,8 @@ public class CategoryDB {
 	}
 	
 	
+=======
+>>>>>>> branch 'master' of https://github.com/cary19005570/C206Team5P12.git
 
 
 }

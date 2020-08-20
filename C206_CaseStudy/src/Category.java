@@ -2,7 +2,7 @@
 public class Category {
 	
 	private String categoryId;
-	private String category;
+	private String category; 
 
 	public Category(String categoryId, String category) {
 		this.categoryId = categoryId;
