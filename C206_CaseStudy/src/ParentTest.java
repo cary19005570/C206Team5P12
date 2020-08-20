@@ -46,7 +46,7 @@ public class ParentTest {
 		ParentDB.showParentMenu();
 		assertEquals("Test that the menu works after adding Mr Lim and Mr Loo",par1, ParentDB.parentlist.get(0));
 		assertEquals(" ",par2,ParentDB.parentlist.get(1));
-
+ 
 
 		
 

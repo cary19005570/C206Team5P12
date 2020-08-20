@@ -49,7 +49,7 @@ public class Parent {
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
 	}
-
+ 
 	public String getStudentGrade() {
 		return studentGrade;
 	}
