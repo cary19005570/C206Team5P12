@@ -18,9 +18,26 @@ public class CategoryDB {
 		return output;
 	}
 	
+	public static void delCategory(String categoryId) {
+		for (int i = 0; i < categoryList.size(); i++)
+			if (categoryId == categoryList.get(i).getCategoryId()) {
+				categoryList.remove(i);
+			}
+		
+	}
 	
-=======
->>>>>>> branch 'master' of https://github.com/cary19005570/C206Team5P12.git
+	public static void showCategoryMenu() {
+		String output = String.format("%-10s %-20s\n", "", "Category ID", "Category");
+		
+			System.out.println(output);
+			
+			for (int i = 0; i<categoryList.size();i++ ) {
+				String output2 = String.format("%-10s %-20s\n", categoryList.get(i).getCategoryId(),categoryList.get(i).getCategory());
+				System.out.println(output2);
+			}
+		
+		
+	}
 
 
 }

@@ -42,6 +42,16 @@ public class CategoryTest {
 		//Test that null values cannot be added to the category list
 		assertNotNull("Test that categorylist added value is NOT null",CategoryDB.categoryList.get(0));
 		
+		//Test that input can be removed;
+		CategoryDB.delCategory("Sports");		
+		assertEquals("Test that the size is 0 after removing of Category",1,CategoryDB.categoryList.size());
+		
+		//Test that menu works after adding Sports and Cooking
+		CategoryDB.addCategory(cat1);
+		CategoryDB.addCategory(cat2);
+		CategoryDB.showCategoryMenu();
+		assertEquals("Test that the menu works after adding Sports and Cooking",cat1, CategoryDB.categoryList.get(0));
+		assertEquals(" ",cat1,CategoryDB.categoryList.get(1));
 	}
 
 
