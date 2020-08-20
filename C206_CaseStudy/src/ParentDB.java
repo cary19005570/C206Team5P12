@@ -13,7 +13,7 @@ public class ParentDB {
 	}
 	}
 
-	
+	 
 	public static String viewAllParent() {
 		String output = "";
 		for (int i = 0; i<parentlist.size(); i++ ) {

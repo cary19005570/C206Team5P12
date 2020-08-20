@@ -17,7 +17,7 @@ public class Parent {
 		this.classroom = classroom;
 		this.teacher = teacher;
 	}
-
+ 
 	public String getName() {
 		return name;
 	}
