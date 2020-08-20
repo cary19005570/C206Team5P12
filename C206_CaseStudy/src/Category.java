@@ -5,7 +5,6 @@ public class Category {
 	private String category;
 
 	public Category(String categoryId, String Category) {
-		// TODO Auto-generated constructor stub
 	}
 
 	public String getCategoryId() {
