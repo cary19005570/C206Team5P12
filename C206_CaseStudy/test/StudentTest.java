@@ -80,7 +80,7 @@ public class StudentTest {
 		assertEquals("Test if I delete one student from the list, the list decrease by 1",StudentList.size());
 		
 		
-		
+		 
 		}
 		public void updatestudentTest() {
 			//Test if the student is not null

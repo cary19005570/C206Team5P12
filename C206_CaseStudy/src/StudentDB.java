@@ -178,7 +178,7 @@ public class StudentDB {
 			boolean check = true;
 			int i = 0; //for while loop
 			int index = 0; //for index
-			
+			 
 			//start while loop (check)
 			while (i < StudentList.size()) {
 				if (StudentList.get(i).getId() == updateID) {
