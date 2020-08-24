@@ -10,7 +10,7 @@ public class Student{
 	private String parentEmail;
 	private String CCA;
 	private String ccastatus;
-	 
+	  
 	public Student(int id, String name, String grade, String teacher, String parentName,
 			String parentEmail, String CCA, String ccastatus) {
 		this.id = id;
