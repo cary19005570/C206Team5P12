@@ -38,6 +38,25 @@ public class CategoryDB {
 		
 		
 	}
+	
+	public static void UpdateCCAdetails(String categoryId) {
+		for (int i = 0; i < categoryList.size(); i ++) {
+			if (categoryId == categoryList.get(i).getCategoryId()) {
+				
+			}
+		}
+	}
+	public static void CheckDupCCA() {
+		// There should be no duplicate categories added to the system 
+		for (int i = 0; i < categoryList.size(); i++) {
+			for (int j =i+1; j< categoryList.size(); j++) {
+				if (categoryList.get(i).equals(categoryList.get(j))) {
+					categoryList.remove(j);
+					j--;
+				}
+			}
+		}
+	}
 
 
 }

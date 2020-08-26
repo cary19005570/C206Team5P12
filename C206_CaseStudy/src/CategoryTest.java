@@ -10,16 +10,20 @@ public class CategoryTest {
 	
 	private Category cat1;
 	private Category cat2;
+
 	 
 	@Before
 	public void setUp() throws Exception {
 		cat1 = new Category("001","Sports");
 		cat2 = new Category("002", "Cooking");
+
+		
 	}
 	@After
 	public void tearDown() throws Exception {
 		cat1 = null;
 		cat2 = null;
+
 		CategoryDB.categoryList.clear();
 	}
 	@Test
@@ -52,6 +56,10 @@ public class CategoryTest {
 		CategoryDB.showCategoryMenu();
 		assertEquals("Test that the menu works after adding Sports and Cooking",cat1, CategoryDB.categoryList.get(0));
 		assertEquals(" ",cat1,CategoryDB.categoryList.get(1));
+	}
+	
+	public void CheckDupCCATest() {
+		CategoryDB.CheckDupCCA();
 	}
 
 

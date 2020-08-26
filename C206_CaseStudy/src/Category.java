@@ -28,6 +28,10 @@ public class Category {
 	public String toString() {
 		return categoryId + " " + category;
 	}
+	
+	public boolean Check25() {
+		return false;
+	}
 
 	
 
