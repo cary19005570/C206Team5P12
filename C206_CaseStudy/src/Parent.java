@@ -7,8 +7,10 @@ public class Parent {
 	private String studentGrade;
 	private String classroom;
 	private String teacher;
+	private int ccaregid;
 	
-	public Parent(String name, String email, String studentid, String studentName, String studentGrade, String classroom, String teacher) {
+	public Parent(String CCAregID, String name, String email, String studentid, String studentName, String studentGrade, String classroom, String teacher) {
+		this.ccaregid = ccaregid;
 		this.name = name;
 		this.email = email;
 		this.studentid = studentid;
@@ -16,6 +18,14 @@ public class Parent {
 		this.studentGrade = studentGrade;
 		this.classroom = classroom;
 		this.teacher = teacher;
+	}
+	
+	public int getCCAregid(){
+		return ccaregid;
+	}
+	
+	public void setCCAregid(int ccaregid) {
+		this.ccaregid = ccaregid;
 	}
  
 	public String getName() {
