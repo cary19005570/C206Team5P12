@@ -13,9 +13,9 @@ public class ParentTest {
 	private Parent test;
 	@Before
 	public void setUp() throws Exception {
-		par1 = new Parent("0","Mr Lim","coolcool@lame.com","11000","Sam","Pri 1","1A","Ms Sor");
-		par2 = new Parent("0","Mr Loo","coolcool11@lame.com","12000","Samy","Pri 2","1A","Ms Sor");
-		test = new Parent("0","Mr Lime","notcoolnotcool@lame.com","13000","Samuel","Pri 3","3A","Ms Sally");
+		par1 = new Parent(0,"Mr Lim","coolcool@lame.com","11000","Sam","Pri 1","1A","Ms Sor");
+		par2 = new Parent(0,"Mr Loo","coolcool11@lame.com","12000","Samy","Pri 2","1A","Ms Sor");
+		test = new Parent(0,"Mr Lime","notcoolnotcool@lame.com","13000","Samuel","Pri 3","3A","Ms Sally");
 	}
 	@After
 	public void tearDown() throws Exception {

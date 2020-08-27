@@ -9,7 +9,7 @@ public class Parent {
 	private String teacher;
 	private int ccaregid;
 	
-	public Parent(String CCAregID, String name, String email, String studentid, String studentName, String studentGrade, String classroom, String teacher) {
+	public Parent(int CCAregID, String name, String email, String studentid, String studentName, String studentGrade, String classroom, String teacher) {
 		this.ccaregid = ccaregid;
 		this.name = name;
 		this.email = email;
